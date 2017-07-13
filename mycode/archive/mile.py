@@ -81,16 +81,22 @@ def calculate_sparse():
             d = idgive.get_id(entry['depenendent'])
             edges_list.append((p,d))
             edges_list.append((d,p))
+    print(idgive.iterr)
 
-    col = [ k for (k,_) in edges_list]
-    row = [ w for (_,w) in edges_list]
-    data = len(col) * [1]
-    sha_pe = idgive.iterr
-    logger.info('edges: {0}'.format(len(edges_list)))
-    sp_m = sparse.coo_matrix((data, (row, col)), shape=(sha_pe, sha_pe)).tocsr()
+
+    s = [k for k in sorted(match_id, key=match_id.get, reverse=False)]
+    f = open('/home/ubuntu/projects/tf.log/github.tsv', 'w')
+    f.write('\n'.join(s))
+    f.close()
+    # col = [ k for (k,_) in edges_list]
+    # row = [ w for (_,w) in edges_list]
+    # data = len(col) * [1]
+    # sha_pe = idgive.iterr
+    # logger.info('edges: {0}'.format(len(edges_list)))
+    # sp_m = sparse.coo_matrix((data, (row, col)), shape=(sha_pe, sha_pe)).tocsr()
     logger.info('sparse matrix is done')
-    sparse.save_npz('/home/ubuntu/projects/obj/sparse_python', sp_m)
-    return sp_m
+    # sparse.save_npz('/home/ubuntu/projects/obj/sparse_python', sp_m)
+    return None
 
 
 
@@ -254,6 +260,8 @@ def calculate_intervals(adj_mat_csr_sparse):
     return intervals
 
 if __name__ == '__main__':
+    calculate_sparse()
+    exit(0)
     p = 1.0
     q = 0.5
     idgive = idgiver()

@@ -35,7 +35,10 @@ fh.setFormatter(formatter)
 fh.setLevel(logging.DEBUG)
 logger.addHandler(fh)
 
+
 manager = Manager()
+
+translation = manager.dict()
 cpu_count = 16
 
 def save_obj(obj, name ):
@@ -48,7 +51,7 @@ def load_obj(name ):
 
 def read_dicts(file_list):
     fl = file_list #[x for x in file_list if 'proc_{0}_'.format(iterator) in x]
-    translation = dict()
+    # translation = dict()
     for iterator,x in enumerate(fl):
         logger.debug(iterator)
         new_dict = load_obj('translation/{0}'.format(x))
@@ -56,7 +59,7 @@ def read_dicts(file_list):
     logger.debug(len(translation))
     return translation
 
-def generate_random_walks(iterator, queue, adj_mat_csr_sparse,transition,random_walk_length):
+def generate_random_walks(iterator, queue, adj_mat_csr_sparse,random_walk_length):
     start = time.time()
     num_nodes=adj_mat_csr_sparse.shape[0]
     indices=adj_mat_csr_sparse.indices
@@ -77,15 +80,16 @@ def generate_random_walks(iterator, queue, adj_mat_csr_sparse,transition,random_
             for i in range(random_walk_length-2):
                 cur_node = random_walk[-1]
                 precious_node=random_walk[-2]
-                (pi_vx_indices,pi_vx_values)=transition[precious_node,cur_node]
+                (pi_vx_indices,pi_vx_values)=translation[precious_node,cur_node]
                 next_node=np.random.choice(pi_vx_indices, 1, p=pi_vx_values)
                 random_walk.append(next_node[0])
             counter += 1
             random_walks.append(random_walk)
-            if counter%10000==0:
-                save_obj(random_walks, 'randwalks/proc_{0}_{1} in {2} sec'.format(iterator, counter, time.time() - beg))
+            if counter%FREQUENCY==0:
+                save_obj(random_walks, 'randwalks/proc_{0}_{1}'.format(iterator, counter))
+
+                logger.debug('Saved proc_{0}_{1}  in {2} sec'.format(iterator, counter, time.time() - beg))
                 beg = time.time()
-                logger.debug('Saved proc_{0}_{1}'.format(iterator, counter))
                 del random_walks
                 random_walks = list()
     save_obj(random_walks, 'randwalks/proc_{0}_{1}'.format(iterator, counter))
@@ -104,7 +108,7 @@ if __name__ == '__main__':
     proc_list = list()
     beg = time.time()
     for entry in range(CPU_COUNT):
-        new_proc = Process(target=generate_random_walks, args=(entry, None, sp_m, translation, 100))
+        new_proc = Process(target=generate_random_walks, args=(entry, None, sp_m, 100))
         proc_list.append(new_proc)
         new_proc.start()
     for entry in proc_list:
