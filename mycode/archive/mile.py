@@ -38,64 +38,73 @@ logger.addHandler(fh)
 manager = Manager()
 rW = []
 
-match_id = dict()
-repo_pro = dict()
-repo_dep = dict()
-
-class idgiver:
+class IdGiver:
     def __init__(self):
         self.iterr = 0
-        self.repo_pro2 = dict()
-        self.repo_dep2 = dict()
+        self.match_id = dict()
+        self.repo_pro = dict()
+        self.repo_dep = dict()
+        self.final_repo_pro = dict()
+        self.final_repo_dep = dict()
 
-    def get_id(self, g_id):
-        if not match_id.get(g_id, False):
-            match_id[g_id] = self.iterr
+    def get_id(self, name):
+
+        if self.match_id.get(name, -1)==-1:
+            self.match_id[name] = self.iterr
             self.iterr += 1
-        return match_id[g_id]
+        return self.match_id[name]
 
 def calculate_sparse():
-    idgive = idgiver()
+    idgive = IdGiver()
     db = client.libs
     curs = db.js6.find()
     for entry in curs:
         p = entry['project']
         d = entry['depenendent']
-        repo_pro[p]= repo_pro.get(p, 0) + 1
-        repo_dep[d]= repo_dep.get(d, 0) + 1
-    curs = db.js6.find()
-
-    for entry in curs:
-        if repo_pro[entry['project']] >= 20 and repo_dep[entry['depenendent']] >= 20:
-            p = entry['project']
-            d = entry['depenendent']
-            idgive.repo_pro2[p] = idgive.repo_pro2.get(p, 0) + 1
-            idgive.repo_dep2[d] = idgive.repo_dep2.get(d, 0) + 1
+        idgive.repo_pro[p]= idgive.repo_pro.get(p, 0) + 1
+        idgive.repo_dep[d]= idgive.repo_dep.get(d, 0) + 1
 
     curs = db.js6.find()
     edges_list = list()
     for entry in curs:
+        if idgive.repo_pro[entry['project']]>=5 and \
+                        idgive.repo_dep[entry['depenendent']]>=100  \
+                        and idgive.repo_dep.get(entry['project'],0)>=5:
 
-        if idgive.repo_pro2.get(entry['project'],0)>=20 and idgive.repo_dep2.get(entry['depenendent'],0)>=20:
             p = idgive.get_id(entry['project'])
             d = idgive.get_id(entry['depenendent'])
+
+            #gather statistics
+            idgive.final_repo_pro[p] = idgive.final_repo_pro.get(p, 0) + 1
+            idgive.final_repo_dep[d] = idgive.final_repo_dep.get(d, 0) + 1
+
             edges_list.append((p,d))
             edges_list.append((d,p))
-    print(idgive.iterr)
+
+    print('# of nodes {0}. \n # of edges: {1}  \n project average {2}. \n Dependent average: {3}. '.format(
+                                        len(idgive.match_id), len(edges_list),
+                                        np.average(list(idgive.final_repo_pro.values())),
+                                        np.average(list(idgive.final_repo_dep.values()))))
 
 
-    s = [k for k in sorted(match_id, key=match_id.get, reverse=False)]
-    f = open('/home/ubuntu/projects/tf.log/github.tsv', 'w')
-    f.write('\n'.join(s))
-    f.close()
-    # col = [ k for (k,_) in edges_list]
-    # row = [ w for (_,w) in edges_list]
-    # data = len(col) * [1]
-    # sha_pe = idgive.iterr
-    # logger.info('edges: {0}'.format(len(edges_list)))
-    # sp_m = sparse.coo_matrix((data, (row, col)), shape=(sha_pe, sha_pe)).tocsr()
+    # write edges
+    with  open('/home/ubuntu/projects/obj/tf_edges_small_1.edgelist', 'w') as f:
+        f.write('\n'.join(['{0} {1}'.format(k,v) for (k,v) in edges_list]))
+
+    with  open('/home/ubuntu/projects/obj/tf_nodes_small_line_1.tsv', 'w') as f:
+        match = idgive.match_id
+        list_of_names = [k for k in sorted(match, key=match.get, reverse=False)]
+        f.write('\n'.join(list_of_names))
+
+
+    col = [ k for (k,_) in edges_list]
+    row = [ w for (_,w) in edges_list]
+    data = len(col) * [1]
+    sha_pe = len(idgive.match_id)
+    logger.info('edges: {0}'.format(len(edges_list)))
+    sp_m = sparse.coo_matrix((data, (row, col)), shape=(sha_pe, sha_pe)).tocsr()
     logger.info('sparse matrix is done')
-    # sparse.save_npz('/home/ubuntu/projects/obj/sparse_python', sp_m)
+    sparse.save_npz('/home/ubuntu/projects/obj/tf_sparse_python_1', sp_m)
     return None
 
 
@@ -260,13 +269,14 @@ def calculate_intervals(adj_mat_csr_sparse):
     return intervals
 
 if __name__ == '__main__':
-    calculate_sparse()
-    exit(0)
+    # calculate_sparse()
+    # exit(0)
     p = 1.0
     q = 0.5
-    idgive = idgiver()
+    # idgive = idgiver()
+    # calculate_sparse()
     lock = Lock()
-    sp_m = sparse.load_npz('/home/ubuntu/projects/obj/sparse_python.npz')
+    sp_m = sparse.load_npz('/home/ubuntu/projects/obj/tf_sparse_python_1.npz')
     rW = randomWalks(sp_m, p, q)
     intervals = calculate_intervals(sp_m)
     logger.info('shape: {0}'.format(sp_m.shape[0]))
