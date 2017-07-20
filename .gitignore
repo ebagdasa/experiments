@@ -1,3 +1,7 @@
 github/
 graphs/
 libs/
+.DS_Store
+.idea/
+mycode/LINE/
+mycode/snap/

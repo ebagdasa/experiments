@@ -1,0 +1,833 @@
+2017-07-13 18:43:05,330 - MyLogger - INFO - edges: 198610
+2017-07-13 18:43:05,427 - MyLogger - INFO - sparse matrix is done
+2017-07-13 18:43:57,845 - MyLogger - DEBUG - total: 66430852
+2017-07-13 18:43:57,845 - MyLogger - INFO - 66430852
+2017-07-13 18:43:58,959 - MyLogger - INFO - [(0, 509), (509, 1023), (1023, 1589), (1589, 2132), (2132, 2686), (2686, 3262), (3262, 3866), (3866, 4508), (4508, 5165), (5165, 5869), (5869, 6564), (6564, 7262), (7262, 7998), (7998, 8760), (8760, 9570), (9570, 10326)]
+2017-07-13 18:43:58,959 - MyLogger - INFO - shape: 10326
+2017-07-13 18:43:58,966 - MyLogger - DEBUG - Proc 1 started with interval: (509, 1023)
+2017-07-13 18:43:58,967 - MyLogger - DEBUG - Proc 3 started with interval: (1589, 2132)
+2017-07-13 18:43:58,967 - MyLogger - DEBUG - Proc 0 started with interval: (0, 509)
+2017-07-13 18:43:58,967 - MyLogger - DEBUG - Proc 2 started with interval: (1023, 1589)
+2017-07-13 18:43:58,967 - MyLogger - DEBUG - Proc 4 started with interval: (2132, 2686)
+2017-07-13 18:43:58,969 - MyLogger - DEBUG - Proc 5 started with interval: (2686, 3262)
+2017-07-13 18:43:58,971 - MyLogger - DEBUG - Proc 7 started with interval: (3866, 4508)
+2017-07-13 18:43:58,971 - MyLogger - DEBUG - Proc 6 started with interval: (3262, 3866)
+2017-07-13 18:43:58,972 - MyLogger - DEBUG - Proc 8 started with interval: (4508, 5165)
+2017-07-13 18:43:58,973 - MyLogger - DEBUG - Proc 9 started with interval: (5165, 5869)
+2017-07-13 18:43:58,973 - MyLogger - DEBUG - Proc 10 started with interval: (5869, 6564)
+2017-07-13 18:43:58,978 - MyLogger - DEBUG - Proc 11 started with interval: (6564, 7262)
+2017-07-13 18:43:58,979 - MyLogger - DEBUG - Proc 13 started with interval: (7998, 8760)
+2017-07-13 18:43:58,980 - MyLogger - DEBUG - Proc 12 started with interval: (7262, 7998)
+2017-07-13 18:43:58,980 - MyLogger - DEBUG - Proc 14 started with interval: (8760, 9570)
+2017-07-13 18:43:59,008 - MyLogger - DEBUG - Proc 15 started with interval: (9570, 10326)
+2017-07-13 18:44:08,532 - MyLogger - DEBUG - Proc 0, completed 1000 in 9.564475297927856 sec. Speed: 104
+2017-07-13 18:44:11,945 - MyLogger - DEBUG - Proc 2, completed 1000 in 12.977327108383179 sec. Speed: 77
+2017-07-13 18:44:16,932 - MyLogger - DEBUG - Proc 1, completed 1000 in 17.96566605567932 sec. Speed: 55
+2017-07-13 18:44:19,561 - MyLogger - DEBUG - Proc 0, completed 2000 in 11.028285264968872 sec. Speed: 90
+2017-07-13 18:44:20,075 - MyLogger - DEBUG - Proc 3, completed 1000 in 21.107605934143066 sec. Speed: 47
+2017-07-13 18:44:22,099 - MyLogger - DEBUG - Proc 2, completed 2000 in 10.151419639587402 sec. Speed: 98
+2017-07-13 18:44:24,881 - MyLogger - DEBUG - Proc 1, completed 2000 in 7.947664260864258 sec. Speed: 125
+2017-07-13 18:44:28,135 - MyLogger - DEBUG - Proc 0, completed 3000 in 8.573009967803955 sec. Speed: 116
+2017-07-13 18:44:31,279 - MyLogger - DEBUG - Proc 1, completed 3000 in 6.397358417510986 sec. Speed: 156
+2017-07-13 18:44:34,728 - MyLogger - DEBUG - Proc 4, completed 1000 in 35.76023507118225 sec. Speed: 27
+2017-07-13 18:44:34,870 - MyLogger - DEBUG - Proc 0, completed 4000 in 6.734147548675537 sec. Speed: 148
+2017-07-13 18:44:41,706 - MyLogger - DEBUG - Proc 1, completed 4000 in 10.426075220108032 sec. Speed: 95
+2017-07-13 18:44:42,607 - MyLogger - DEBUG - Proc 0, completed 5000 in 7.736044406890869 sec. Speed: 129
+2017-07-13 18:44:45,753 - MyLogger - DEBUG - Proc 1, completed 5000 in 4.045504570007324 sec. Speed: 247
+2017-07-13 18:44:47,142 - MyLogger - DEBUG - Proc 2, completed 3000 in 25.041983127593994 sec. Speed: 39
+2017-07-13 18:44:47,971 - MyLogger - DEBUG - Proc 9, completed 1000 in 48.997641801834106 sec. Speed: 20
+2017-07-13 18:44:48,708 - MyLogger - DEBUG - Proc 7, completed 1000 in 49.73717784881592 sec. Speed: 20
+2017-07-13 18:44:49,279 - MyLogger - DEBUG - Proc 0, completed 6000 in 6.671569585800171 sec. Speed: 149
+2017-07-13 18:44:49,465 - MyLogger - DEBUG - Proc 5, completed 1000 in 50.495553731918335 sec. Speed: 19
+2017-07-13 18:44:50,217 - MyLogger - DEBUG - Proc 6, completed 1000 in 51.24610638618469 sec. Speed: 19
+2017-07-13 18:44:50,322 - MyLogger - DEBUG - Proc 8, completed 1000 in 51.34911775588989 sec. Speed: 19
+2017-07-13 18:44:54,114 - MyLogger - DEBUG - Proc 1, completed 6000 in 8.360214471817017 sec. Speed: 119
+2017-07-13 18:44:57,637 - MyLogger - DEBUG - Proc 3, completed 2000 in 37.560626745224 sec. Speed: 26
+2017-07-13 18:44:58,369 - MyLogger - DEBUG - Proc 8, completed 2000 in 8.04570722579956 sec. Speed: 124
+2017-07-13 18:45:00,149 - MyLogger - DEBUG - Proc 10, completed 1000 in 61.17557644844055 sec. Speed: 16
+2017-07-13 18:45:01,119 - MyLogger - DEBUG - Proc 0, completed 7000 in 11.83925986289978 sec. Speed: 84
+2017-07-13 18:45:06,198 - MyLogger - DEBUG - Proc 2, completed 4000 in 19.05515694618225 sec. Speed: 52
+2017-07-13 18:45:07,285 - MyLogger - DEBUG - Proc 11, completed 1000 in 68.30720567703247 sec. Speed: 14
+2017-07-13 18:45:08,516 - MyLogger - DEBUG - Proc 1, completed 7000 in 14.4014892578125 sec. Speed: 69
+2017-07-13 18:45:12,852 - MyLogger - DEBUG - Proc 0, completed 8000 in 11.73154878616333 sec. Speed: 85
+2017-07-13 18:45:16,912 - MyLogger - DEBUG - Proc 4, completed 2000 in 42.182581424713135 sec. Speed: 23
+2017-07-13 18:45:19,306 - MyLogger - DEBUG - Proc 12, completed 1000 in 80.32535433769226 sec. Speed: 12
+2017-07-13 18:45:21,373 - MyLogger - DEBUG - Proc 13, completed 1000 in 82.39388036727905 sec. Speed: 12
+2017-07-13 18:45:23,167 - MyLogger - DEBUG - Proc 1, completed 8000 in 14.649767398834229 sec. Speed: 68
+2017-07-13 18:45:23,648 - MyLogger - DEBUG - Proc 0, completed 9000 in 10.795336723327637 sec. Speed: 92
+2017-07-13 18:45:26,642 - MyLogger - DEBUG - Proc 2, completed 5000 in 20.442911624908447 sec. Speed: 48
+2017-07-13 18:45:33,811 - MyLogger - DEBUG - Proc 5, completed 2000 in 44.344215869903564 sec. Speed: 22
+2017-07-13 18:45:34,664 - MyLogger - DEBUG - Proc 3, completed 3000 in 37.02657723426819 sec. Speed: 27
+2017-07-13 18:45:35,501 - MyLogger - DEBUG - Proc 0, completed 10000 in 11.851896524429321 sec. Speed: 84
+2017-07-13 18:45:38,156 - MyLogger - DEBUG - Proc 6, completed 2000 in 47.93695950508118 sec. Speed: 20
+2017-07-13 18:45:38,940 - MyLogger - DEBUG - Proc 7, completed 2000 in 50.23050498962402 sec. Speed: 19
+2017-07-13 18:45:39,841 - MyLogger - DEBUG - Proc 14, completed 1000 in 100.86028146743774 sec. Speed: 9
+2017-07-13 18:45:45,987 - MyLogger - DEBUG - Proc 1, completed 9000 in 22.819844722747803 sec. Speed: 43
+2017-07-13 18:45:49,997 - MyLogger - DEBUG - Proc 0, completed 11000 in 14.494876623153687 sec. Speed: 68
+2017-07-13 18:45:52,662 - MyLogger - DEBUG - Proc 9, completed 2000 in 64.6898295879364 sec. Speed: 15
+2017-07-13 18:45:53,716 - MyLogger - DEBUG - Proc 2, completed 6000 in 27.07321548461914 sec. Speed: 36
+2017-07-13 18:45:54,389 - MyLogger - DEBUG - Proc 15, completed 1000 in 115.38090324401855 sec. Speed: 8
+2017-07-13 18:45:56,314 - MyLogger - DEBUG - Proc 8, completed 3000 in 57.94463086128235 sec. Speed: 17
+2017-07-13 18:46:00,787 - MyLogger - DEBUG - Proc 0, completed 12000 in 10.78890585899353 sec. Speed: 92
+2017-07-13 18:46:01,286 - MyLogger - DEBUG - Proc 4, completed 3000 in 44.37316632270813 sec. Speed: 22
+2017-07-13 18:46:01,685 - MyLogger - DEBUG - Proc 1, completed 10000 in 15.696744918823242 sec. Speed: 63
+2017-07-13 18:46:09,558 - MyLogger - DEBUG - Proc 6, completed 3000 in 31.40113353729248 sec. Speed: 31
+2017-07-13 18:46:09,827 - MyLogger - DEBUG - Proc 10, completed 2000 in 69.67507243156433 sec. Speed: 14
+2017-07-13 18:46:14,105 - MyLogger - DEBUG - Proc 2, completed 7000 in 20.38739562034607 sec. Speed: 49
+2017-07-13 18:46:16,985 - MyLogger - DEBUG - Proc 0, completed 13000 in 16.197391510009766 sec. Speed: 61
+2017-07-13 18:46:17,403 - MyLogger - DEBUG - Proc 3, completed 4000 in 42.73809313774109 sec. Speed: 23
+2017-07-13 18:46:19,093 - MyLogger - DEBUG - Proc 7, completed 3000 in 40.15183973312378 sec. Speed: 24
+2017-07-13 18:46:19,635 - MyLogger - DEBUG - Proc 12, completed 2000 in 60.32665991783142 sec. Speed: 16
+2017-07-13 18:46:19,759 - MyLogger - DEBUG - Proc 5, completed 3000 in 45.946763038635254 sec. Speed: 21
+2017-07-13 18:46:20,587 - MyLogger - DEBUG - Proc 0, completed 14000 in 3.6008858680725098 sec. Speed: 277
+2017-07-13 18:46:20,948 - MyLogger - DEBUG - Proc 11, completed 2000 in 73.66133618354797 sec. Speed: 13
+2017-07-13 18:46:23,693 - MyLogger - DEBUG - Proc 1, completed 11000 in 22.006721019744873 sec. Speed: 45
+2017-07-13 18:46:27,630 - MyLogger - DEBUG - Proc 0, completed 15000 in 7.042938470840454 sec. Speed: 141
+2017-07-13 18:46:29,354 - MyLogger - DEBUG - Proc 2, completed 8000 in 15.24899959564209 sec. Speed: 65
+2017-07-13 18:46:31,980 - MyLogger - DEBUG - Proc 4, completed 4000 in 30.692907571792603 sec. Speed: 32
+2017-07-13 18:46:33,717 - MyLogger - DEBUG - Proc 4, completed 5000 in 1.7357187271118164 sec. Speed: 576
+2017-07-13 18:46:40,626 - MyLogger - DEBUG - Proc 0, completed 16000 in 12.994168519973755 sec. Speed: 76
+2017-07-13 18:46:43,251 - MyLogger - DEBUG - Proc 7, completed 4000 in 24.157191514968872 sec. Speed: 41
+2017-07-13 18:46:46,476 - MyLogger - DEBUG - Proc 1, completed 12000 in 22.782870054244995 sec. Speed: 43
+2017-07-13 18:46:47,750 - MyLogger - DEBUG - Proc 6, completed 4000 in 38.1908061504364 sec. Speed: 26
+2017-07-13 18:46:53,856 - MyLogger - DEBUG - Proc 13, completed 2000 in 92.48166513442993 sec. Speed: 10
+2017-07-13 18:46:54,019 - MyLogger - DEBUG - Proc 8, completed 4000 in 57.70327281951904 sec. Speed: 17
+2017-07-13 18:46:54,814 - MyLogger - DEBUG - Proc 0, completed 17000 in 14.1872239112854 sec. Speed: 70
+2017-07-13 18:46:55,885 - MyLogger - DEBUG - Proc 9, completed 3000 in 63.221964597702026 sec. Speed: 15
+2017-07-13 18:46:56,352 - MyLogger - DEBUG - Proc 3, completed 5000 in 38.94714665412903 sec. Speed: 25
+2017-07-13 18:46:59,974 - MyLogger - DEBUG - Proc 4, completed 6000 in 26.25573706626892 sec. Speed: 38
+2017-07-13 18:47:04,132 - MyLogger - DEBUG - Proc 0, completed 18000 in 9.317453384399414 sec. Speed: 107
+2017-07-13 18:47:04,428 - MyLogger - DEBUG - Proc 5, completed 4000 in 44.667741775512695 sec. Speed: 22
+2017-07-13 18:47:05,460 - MyLogger - DEBUG - Proc 1, completed 13000 in 18.982882976531982 sec. Speed: 52
+2017-07-13 18:47:07,035 - MyLogger - DEBUG - Proc 6, completed 5000 in 19.284839630126953 sec. Speed: 51
+2017-07-13 18:47:10,212 - MyLogger - DEBUG - Proc 0, completed 19000 in 6.0790464878082275 sec. Speed: 164
+2017-07-13 18:47:11,125 - MyLogger - DEBUG - Proc 14, completed 2000 in 91.28240489959717 sec. Speed: 10
+2017-07-13 18:47:11,446 - MyLogger - DEBUG - Proc 2, completed 9000 in 42.09083580970764 sec. Speed: 23
+2017-07-13 18:47:14,640 - MyLogger - DEBUG - Proc 12, completed 3000 in 55.0041069984436 sec. Speed: 18
+2017-07-13 18:47:17,014 - MyLogger - DEBUG - Proc 10, completed 3000 in 67.18526840209961 sec. Speed: 14
+2017-07-13 18:47:25,023 - MyLogger - DEBUG - Proc 2, completed 10000 in 13.575358629226685 sec. Speed: 73
+2017-07-13 18:47:26,034 - MyLogger - DEBUG - Proc 7, completed 5000 in 42.78220343589783 sec. Speed: 23
+2017-07-13 18:47:32,264 - MyLogger - DEBUG - Proc 1, completed 14000 in 26.803096055984497 sec. Speed: 37
+2017-07-13 18:47:33,364 - MyLogger - DEBUG - Proc 11, completed 3000 in 72.41485333442688 sec. Speed: 13
+2017-07-13 18:47:35,244 - MyLogger - DEBUG - Proc 0, completed 20000 in 25.0309898853302 sec. Speed: 39
+2017-07-13 18:47:36,889 - MyLogger - DEBUG - Proc 3, completed 6000 in 40.53614568710327 sec. Speed: 24
+2017-07-13 18:47:37,780 - MyLogger - DEBUG - Proc 7, completed 6000 in 11.744516134262085 sec. Speed: 85
+2017-07-13 18:47:39,889 - MyLogger - DEBUG - Proc 4, completed 7000 in 39.9146614074707 sec. Speed: 25
+2017-07-13 18:47:42,622 - MyLogger - DEBUG - Proc 1, completed 15000 in 10.356992244720459 sec. Speed: 96
+2017-07-13 18:47:43,677 - MyLogger - DEBUG - Proc 2, completed 11000 in 18.653822422027588 sec. Speed: 53
+2017-07-13 18:47:45,533 - MyLogger - DEBUG - Proc 0, completed 21000 in 10.28845763206482 sec. Speed: 97
+2017-07-13 18:47:52,071 - MyLogger - DEBUG - Proc 8, completed 5000 in 58.051233530044556 sec. Speed: 17
+2017-07-13 18:47:55,813 - MyLogger - DEBUG - Proc 5, completed 5000 in 51.38403654098511 sec. Speed: 19
+2017-07-13 18:47:56,951 - MyLogger - DEBUG - Proc 6, completed 6000 in 49.91489315032959 sec. Speed: 20
+2017-07-13 18:48:00,101 - MyLogger - DEBUG - Proc 9, completed 4000 in 64.21512246131897 sec. Speed: 15
+2017-07-13 18:48:00,128 - MyLogger - DEBUG - Proc 1, completed 16000 in 17.504842281341553 sec. Speed: 57
+2017-07-13 18:48:00,604 - MyLogger - DEBUG - Proc 0, completed 22000 in 15.069683313369751 sec. Speed: 66
+2017-07-13 18:48:04,746 - MyLogger - DEBUG - Proc 14, completed 3000 in 53.619751930236816 sec. Speed: 18
+2017-07-13 18:48:06,605 - MyLogger - DEBUG - Proc 15, completed 2000 in 132.21408557891846 sec. Speed: 7
+2017-07-13 18:48:07,012 - MyLogger - DEBUG - Proc 3, completed 7000 in 30.121737718582153 sec. Speed: 33
+2017-07-13 18:48:10,493 - MyLogger - DEBUG - Proc 3, completed 8000 in 3.48013973236084 sec. Speed: 287
+2017-07-13 18:48:11,785 - MyLogger - DEBUG - Proc 3, completed 9000 in 1.2918808460235596 sec. Speed: 774
+2017-07-13 18:48:13,414 - MyLogger - DEBUG - Proc 0, completed 23000 in 12.809207916259766 sec. Speed: 78
+2017-07-13 18:48:14,761 - MyLogger - DEBUG - Proc 2, completed 12000 in 31.082212686538696 sec. Speed: 32
+2017-07-13 18:48:16,099 - MyLogger - DEBUG - Proc 4, completed 8000 in 36.20869541168213 sec. Speed: 27
+2017-07-13 18:48:20,108 - MyLogger - DEBUG - Proc 1, completed 17000 in 19.979007959365845 sec. Speed: 50
+2017-07-13 18:48:21,585 - MyLogger - DEBUG - Proc 2, completed 13000 in 6.823859930038452 sec. Speed: 146
+2017-07-13 18:48:22,769 - MyLogger - DEBUG - Proc 2, completed 14000 in 1.1830830574035645 sec. Speed: 845
+2017-07-13 18:48:23,053 - MyLogger - DEBUG - Proc 13, completed 3000 in 89.19534015655518 sec. Speed: 11
+2017-07-13 18:48:29,507 - MyLogger - DEBUG - Proc 0, completed 24000 in 16.092233896255493 sec. Speed: 62
+2017-07-13 18:48:31,258 - MyLogger - DEBUG - Proc 10, completed 4000 in 74.24354100227356 sec. Speed: 13
+2017-07-13 18:48:34,772 - MyLogger - DEBUG - Proc 1, completed 18000 in 14.663338899612427 sec. Speed: 68
+2017-07-13 18:48:35,956 - MyLogger - DEBUG - Proc 7, completed 7000 in 58.17527437210083 sec. Speed: 17
+2017-07-13 18:48:36,873 - MyLogger - DEBUG - Proc 12, completed 4000 in 82.23204374313354 sec. Speed: 12
+2017-07-13 18:48:40,061 - MyLogger - DEBUG - Proc 0, completed 25000 in 10.552699327468872 sec. Speed: 94
+2017-07-13 18:48:46,365 - MyLogger - DEBUG - Proc 5, completed 6000 in 50.551029205322266 sec. Speed: 19
+2017-07-13 18:48:48,287 - MyLogger - DEBUG - Proc 6, completed 7000 in 51.33414006233215 sec. Speed: 19
+2017-07-13 18:48:49,574 - MyLogger - DEBUG - Proc 1, completed 19000 in 14.801566123962402 sec. Speed: 67
+2017-07-13 18:48:49,776 - MyLogger - DEBUG - Proc 2, completed 15000 in 27.00614595413208 sec. Speed: 37
+2017-07-13 18:48:50,710 - MyLogger - DEBUG - Proc 8, completed 6000 in 58.63738822937012 sec. Speed: 17
+2017-07-13 18:48:50,831 - MyLogger - DEBUG - Proc 11, completed 4000 in 77.46580529212952 sec. Speed: 12
+2017-07-13 18:48:51,453 - MyLogger - DEBUG - Proc 3, completed 10000 in 39.66646671295166 sec. Speed: 25
+2017-07-13 18:48:53,114 - MyLogger - DEBUG - Proc 1, completed 20000 in 3.538541078567505 sec. Speed: 282
+2017-07-13 18:48:54,954 - MyLogger - DEBUG - Proc 1, completed 21000 in 1.8391973972320557 sec. Speed: 543
+2017-07-13 18:48:55,888 - MyLogger - DEBUG - Proc 4, completed 9000 in 39.7881600856781 sec. Speed: 25
+2017-07-13 18:48:56,106 - MyLogger - DEBUG - Proc 1, completed 22000 in 1.151479721069336 sec. Speed: 868
+2017-07-13 18:48:56,888 - MyLogger - DEBUG - Proc 1, completed 23000 in 0.7808549404144287 sec. Speed: 1280
+2017-07-13 18:48:59,675 - MyLogger - DEBUG - Proc 0, completed 26000 in 19.613463640213013 sec. Speed: 50
+2017-07-13 18:49:02,010 - MyLogger - DEBUG - Proc 7, completed 8000 in 26.052852630615234 sec. Speed: 38
+2017-07-13 18:49:05,716 - MyLogger - DEBUG - Proc 9, completed 5000 in 65.61319255828857 sec. Speed: 15
+2017-07-13 18:49:14,934 - MyLogger - DEBUG - Proc 2, completed 16000 in 25.156423330307007 sec. Speed: 39
+2017-07-13 18:49:14,945 - MyLogger - DEBUG - Proc 0, completed 27000 in 15.26882004737854 sec. Speed: 65
+2017-07-13 18:49:18,264 - MyLogger - DEBUG - Proc 1, completed 24000 in 21.375636339187622 sec. Speed: 46
+2017-07-13 18:49:21,519 - MyLogger - DEBUG - Proc 3, completed 11000 in 30.065327167510986 sec. Speed: 33
+2017-07-13 18:49:21,741 - MyLogger - DEBUG - Proc 0, completed 28000 in 6.79554295539856 sec. Speed: 147
+2017-07-13 18:49:22,761 - MyLogger - DEBUG - Proc 5, completed 7000 in 36.394644260406494 sec. Speed: 27
+2017-07-13 18:49:31,276 - MyLogger - DEBUG - Proc 1, completed 25000 in 13.011209726333618 sec. Speed: 76
+2017-07-13 18:49:34,736 - MyLogger - DEBUG - Proc 2, completed 17000 in 19.801615715026855 sec. Speed: 50
+2017-07-13 18:49:37,472 - MyLogger - DEBUG - Proc 14, completed 4000 in 92.72522711753845 sec. Speed: 10
+2017-07-13 18:49:38,778 - MyLogger - DEBUG - Proc 10, completed 5000 in 67.51897287368774 sec. Speed: 14
+2017-07-13 18:49:39,529 - MyLogger - DEBUG - Proc 0, completed 29000 in 17.78675889968872 sec. Speed: 56
+2017-07-13 18:49:39,834 - MyLogger - DEBUG - Proc 4, completed 10000 in 43.94440817832947 sec. Speed: 22
+2017-07-13 18:49:45,855 - MyLogger - DEBUG - Proc 6, completed 8000 in 57.56777358055115 sec. Speed: 17
+2017-07-13 18:49:46,018 - MyLogger - DEBUG - Proc 8, completed 7000 in 55.307244539260864 sec. Speed: 18
+2017-07-13 18:49:46,255 - MyLogger - DEBUG - Proc 7, completed 9000 in 44.243704319000244 sec. Speed: 22
+2017-07-13 18:49:53,501 - MyLogger - DEBUG - Proc 13, completed 4000 in 90.44749712944031 sec. Speed: 11
+2017-07-13 18:49:55,786 - MyLogger - DEBUG - Proc 12, completed 5000 in 78.91173052787781 sec. Speed: 12
+2017-07-13 18:49:57,335 - MyLogger - DEBUG - Proc 0, completed 30000 in 17.80517029762268 sec. Speed: 56
+2017-07-13 18:49:57,545 - MyLogger - DEBUG - Proc 1, completed 26000 in 26.26847815513611 sec. Speed: 38
+2017-07-13 18:49:57,670 - MyLogger - DEBUG - Proc 3, completed 12000 in 36.15045762062073 sec. Speed: 27
+2017-07-13 18:50:02,555 - MyLogger - DEBUG - Proc 9, completed 6000 in 56.83865928649902 sec. Speed: 17
+2017-07-13 18:50:05,498 - MyLogger - DEBUG - Proc 5, completed 8000 in 42.73667860031128 sec. Speed: 23
+2017-07-13 18:50:07,595 - MyLogger - DEBUG - Proc 0, completed 31000 in 10.259622573852539 sec. Speed: 97
+2017-07-13 18:50:08,660 - MyLogger - DEBUG - Proc 11, completed 5000 in 77.82746291160583 sec. Speed: 12
+2017-07-13 18:50:09,482 - MyLogger - DEBUG - Proc 2, completed 18000 in 34.74423289299011 sec. Speed: 28
+2017-07-13 18:50:24,014 - MyLogger - DEBUG - Proc 0, completed 32000 in 16.41743278503418 sec. Speed: 60
+2017-07-13 18:50:25,797 - MyLogger - DEBUG - Proc 4, completed 11000 in 45.96161913871765 sec. Speed: 21
+2017-07-13 18:50:26,594 - MyLogger - DEBUG - Proc 1, completed 27000 in 29.047454833984375 sec. Speed: 34
+2017-07-13 18:50:39,615 - MyLogger - DEBUG - Proc 0, completed 33000 in 15.600347757339478 sec. Speed: 64
+2017-07-13 18:50:41,614 - MyLogger - DEBUG - Proc 7, completed 10000 in 55.35861253738403 sec. Speed: 18
+2017-07-13 18:50:41,658 - MyLogger - DEBUG - Proc 3, completed 13000 in 43.986448526382446 sec. Speed: 22
+2017-07-13 18:50:42,677 - MyLogger - DEBUG - Proc 14, completed 5000 in 65.20405554771423 sec. Speed: 15
+2017-07-13 18:50:43,204 - MyLogger - DEBUG - Proc 12, completed 6000 in 47.4166362285614 sec. Speed: 21
+2017-07-13 18:50:44,318 - MyLogger - DEBUG - Proc 2, completed 19000 in 34.83566474914551 sec. Speed: 28
+2017-07-13 18:50:47,395 - MyLogger - DEBUG - Proc 5, completed 9000 in 41.89559745788574 sec. Speed: 23
+2017-07-13 18:50:49,047 - MyLogger - DEBUG - Proc 6, completed 9000 in 63.190876483917236 sec. Speed: 15
+2017-07-13 18:50:50,011 - MyLogger - DEBUG - Proc 8, completed 8000 in 63.991678953170776 sec. Speed: 15
+2017-07-13 18:50:52,587 - MyLogger - DEBUG - Proc 10, completed 6000 in 73.80799722671509 sec. Speed: 13
+2017-07-13 18:50:55,491 - MyLogger - DEBUG - Proc 0, completed 34000 in 15.874852657318115 sec. Speed: 62
+2017-07-13 18:50:56,225 - MyLogger - DEBUG - Proc 1, completed 28000 in 29.630183458328247 sec. Speed: 33
+2017-07-13 18:51:04,537 - MyLogger - DEBUG - Proc 15, completed 3000 in 177.93159794807434 sec. Speed: 5
+2017-07-13 18:51:05,328 - MyLogger - DEBUG - Proc 5, completed 10000 in 17.93162965774536 sec. Speed: 55
+2017-07-13 18:51:06,082 - MyLogger - DEBUG - Proc 9, completed 7000 in 63.52563691139221 sec. Speed: 15
+2017-07-13 18:51:08,750 - MyLogger - DEBUG - Proc 0, completed 35000 in 13.258753299713135 sec. Speed: 75
+2017-07-13 18:51:13,216 - MyLogger - DEBUG - Proc 12, completed 7000 in 30.011216163635254 sec. Speed: 33
+2017-07-13 18:51:13,563 - MyLogger - DEBUG - Proc 2, completed 20000 in 29.243615865707397 sec. Speed: 34
+2017-07-13 18:51:13,682 - MyLogger - DEBUG - Proc 3, completed 14000 in 32.023250341415405 sec. Speed: 31
+2017-07-13 18:51:14,422 - MyLogger - DEBUG - Proc 4, completed 12000 in 48.62364459037781 sec. Speed: 20
+2017-07-13 18:51:21,344 - MyLogger - DEBUG - Proc 0, completed 36000 in 12.592282772064209 sec. Speed: 79
+2017-07-13 18:51:22,235 - MyLogger - DEBUG - Proc 3, completed 15000 in 8.552204132080078 sec. Speed: 116
+2017-07-13 18:51:22,447 - MyLogger - DEBUG - Proc 11, completed 6000 in 73.78625512123108 sec. Speed: 13
+2017-07-13 18:51:22,936 - MyLogger - DEBUG - Proc 15, completed 4000 in 18.397621631622314 sec. Speed: 54
+2017-07-13 18:51:26,935 - MyLogger - DEBUG - Proc 15, completed 5000 in 3.9979164600372314 sec. Speed: 250
+2017-07-13 18:51:28,342 - MyLogger - DEBUG - Proc 1, completed 29000 in 32.11648178100586 sec. Speed: 31
+2017-07-13 18:51:29,520 - MyLogger - INFO - Proc: 8. End in 7 min. Count 8687 !!!!!!
+2017-07-13 18:51:29,750 - MyLogger - INFO - Proc: 13. End in 7 min. Count 4951 !!!!!!
+2017-07-13 18:51:30,320 - MyLogger - INFO - Proc: 9. End in 7 min. Count 7389 !!!!!!
+2017-07-13 18:51:30,356 - MyLogger - INFO - Proc: 15. End in 7 min. Count 5291 !!!!!!
+2017-07-13 18:51:30,551 - MyLogger - INFO - Proc: 11. End in 7 min. Count 6075 !!!!!!
+2017-07-13 18:51:30,741 - MyLogger - INFO - Proc: 12. End in 7 min. Count 7581 !!!!!!
+2017-07-13 18:51:30,914 - MyLogger - INFO - Proc: 10. End in 7 min. Count 6581 !!!!!!
+2017-07-13 18:51:31,045 - MyLogger - INFO - Proc: 2. End in 7 min. Count 20607 !!!!!!
+2017-07-13 18:51:31,155 - MyLogger - INFO - Proc: 7. End in 7 min. Count 10876 !!!!!!
+2017-07-13 18:51:31,331 - MyLogger - INFO - Proc: 1. End in 7 min. Count 29074 !!!!!!
+2017-07-13 18:51:31,486 - MyLogger - INFO - Proc: 5. End in 7 min. Count 10521 !!!!!!
+2017-07-13 18:51:31,833 - MyLogger - INFO - Proc: 3. End in 7 min. Count 15301 !!!!!!
+2017-07-13 18:51:31,887 - MyLogger - INFO - Proc: 0. End in 7 min. Count 36628 !!!!!!
+2017-07-13 18:51:32,017 - MyLogger - INFO - Proc: 14. End in 7 min. Count 5482 !!!!!!
+2017-07-13 18:51:34,803 - MyLogger - DEBUG - Proc 4, completed 13000 in 20.38008451461792 sec. Speed: 49
+2017-07-13 18:51:36,885 - MyLogger - INFO - Proc: 4. End in 7 min. Count 13068 !!!!!!
+2017-07-13 18:51:39,853 - MyLogger - DEBUG - Proc 6, completed 10000 in 50.80422401428223 sec. Speed: 19
+2017-07-13 18:51:40,489 - MyLogger - INFO - Proc: 6. End in 7 min. Count 10020 !!!!!!
+2017-07-13 18:51:40,492 - MyLogger - INFO - time: 7 min
+2017-07-13 18:51:40,492 - MyLogger - INFO - count: 0
+2017-07-13 18:51:40,492 - MyLogger - INFO - average speed: 0 it/s
+2017-07-13 18:51:40,492 - MyLogger - DEBUG - Timings:
+2017-07-13 18:51:40,493 - MyLogger - DEBUG - {8000: [], 20000: [], 25000: [], 27000: [], 21000: [], 13000: [], 9000: [], 2000: [], 11000: [], 26000: [], 1000: [], 28000: [], 15000: [], 14000: [], 33000: [], 29000: [], 10000: [], 4000: [], 18000: [], 23000: [], 17000: [], 30000: [], 35000: [], 36000: [], 32000: [], 6000: [], 5000: [], 3000: [], 24000: [], 31000: [], 7000: [], 19000: [], 34000: [], 16000: [], 12000: [], 22000: []}
+2017-07-13 18:56:18,641 - MyLogger - DEBUG - QWERQWER
+2017-07-13 18:56:18,659 - MyLogger - DEBUG - 0
+2017-07-13 18:56:18,725 - MyLogger - DEBUG - 1
+2017-07-13 18:56:18,749 - MyLogger - DEBUG - 2
+2017-07-13 18:56:18,789 - MyLogger - DEBUG - 3
+2017-07-13 18:56:18,816 - MyLogger - DEBUG - 4
+2017-07-13 18:56:18,842 - MyLogger - DEBUG - 5
+2017-07-13 18:56:18,881 - MyLogger - DEBUG - 6
+2017-07-13 18:56:18,907 - MyLogger - DEBUG - 7
+2017-07-13 18:56:18,933 - MyLogger - DEBUG - 8
+2017-07-13 18:56:18,982 - MyLogger - DEBUG - 9
+2017-07-13 18:56:19,018 - MyLogger - DEBUG - 10
+2017-07-13 18:56:19,065 - MyLogger - DEBUG - 11
+2017-07-13 18:56:19,094 - MyLogger - DEBUG - 12
+2017-07-13 18:56:19,129 - MyLogger - DEBUG - 13
+2017-07-13 18:56:19,134 - MyLogger - DEBUG - 14
+2017-07-13 18:56:19,168 - MyLogger - DEBUG - 15
+2017-07-13 18:56:19,207 - MyLogger - DEBUG - 16
+2017-07-13 18:56:19,239 - MyLogger - DEBUG - 17
+2017-07-13 18:56:19,258 - MyLogger - DEBUG - 18
+2017-07-13 18:56:19,286 - MyLogger - DEBUG - 19
+2017-07-13 18:56:19,311 - MyLogger - DEBUG - 20
+2017-07-13 18:56:19,335 - MyLogger - DEBUG - 21
+2017-07-13 18:56:19,359 - MyLogger - DEBUG - 22
+2017-07-13 18:56:19,404 - MyLogger - DEBUG - 23
+2017-07-13 18:56:19,442 - MyLogger - DEBUG - 24
+2017-07-13 18:56:19,471 - MyLogger - DEBUG - 25
+2017-07-13 18:56:19,495 - MyLogger - DEBUG - 26
+2017-07-13 18:56:19,530 - MyLogger - DEBUG - 27
+2017-07-13 18:56:19,548 - MyLogger - DEBUG - 28
+2017-07-13 18:56:19,576 - MyLogger - DEBUG - 29
+2017-07-13 18:56:19,614 - MyLogger - DEBUG - 30
+2017-07-13 18:56:19,651 - MyLogger - DEBUG - 31
+2017-07-13 18:56:19,705 - MyLogger - DEBUG - 32
+2017-07-13 18:56:19,736 - MyLogger - DEBUG - 33
+2017-07-13 18:56:19,762 - MyLogger - DEBUG - 34
+2017-07-13 18:56:19,798 - MyLogger - DEBUG - 35
+2017-07-13 18:56:19,846 - MyLogger - DEBUG - 36
+2017-07-13 18:56:19,889 - MyLogger - DEBUG - 37
+2017-07-13 18:56:19,926 - MyLogger - DEBUG - 38
+2017-07-13 18:56:19,959 - MyLogger - DEBUG - 39
+2017-07-13 18:56:20,029 - MyLogger - DEBUG - 40
+2017-07-13 18:56:20,061 - MyLogger - DEBUG - 41
+2017-07-13 18:56:20,089 - MyLogger - DEBUG - 42
+2017-07-13 18:56:20,121 - MyLogger - DEBUG - 43
+2017-07-13 18:56:20,146 - MyLogger - DEBUG - 44
+2017-07-13 18:56:20,174 - MyLogger - DEBUG - 45
+2017-07-13 18:56:20,215 - MyLogger - DEBUG - 46
+2017-07-13 18:56:20,247 - MyLogger - DEBUG - 47
+2017-07-13 18:56:20,255 - MyLogger - DEBUG - 48
+2017-07-13 18:56:20,295 - MyLogger - DEBUG - 49
+2017-07-13 18:56:20,345 - MyLogger - DEBUG - 50
+2017-07-13 18:56:20,374 - MyLogger - DEBUG - 51
+2017-07-13 18:56:20,406 - MyLogger - DEBUG - 52
+2017-07-13 18:56:20,438 - MyLogger - DEBUG - 53
+2017-07-13 18:56:20,464 - MyLogger - DEBUG - 54
+2017-07-13 18:56:20,508 - MyLogger - DEBUG - 55
+2017-07-13 18:56:20,538 - MyLogger - DEBUG - 56
+2017-07-13 18:56:20,564 - MyLogger - DEBUG - 57
+2017-07-13 18:56:20,608 - MyLogger - DEBUG - 58
+2017-07-13 18:56:20,636 - MyLogger - DEBUG - 59
+2017-07-13 18:56:20,658 - MyLogger - DEBUG - 60
+2017-07-13 18:56:20,698 - MyLogger - DEBUG - 61
+2017-07-13 18:56:20,726 - MyLogger - DEBUG - 62
+2017-07-13 18:56:20,753 - MyLogger - DEBUG - 63
+2017-07-13 18:56:20,828 - MyLogger - DEBUG - 64
+2017-07-13 18:56:20,868 - MyLogger - DEBUG - 65
+2017-07-13 18:56:20,899 - MyLogger - DEBUG - 66
+2017-07-13 18:56:20,942 - MyLogger - DEBUG - 67
+2017-07-13 18:56:20,976 - MyLogger - DEBUG - 68
+2017-07-13 18:56:21,006 - MyLogger - DEBUG - 69
+2017-07-13 18:56:21,027 - MyLogger - DEBUG - 70
+2017-07-13 18:56:21,054 - MyLogger - DEBUG - 71
+2017-07-13 18:56:21,084 - MyLogger - DEBUG - 72
+2017-07-13 18:56:21,110 - MyLogger - DEBUG - 73
+2017-07-13 18:56:21,147 - MyLogger - DEBUG - 74
+2017-07-13 18:56:21,174 - MyLogger - DEBUG - 75
+2017-07-13 18:56:21,201 - MyLogger - DEBUG - 76
+2017-07-13 18:56:21,237 - MyLogger - DEBUG - 77
+2017-07-13 18:56:21,272 - MyLogger - DEBUG - 78
+2017-07-13 18:56:21,301 - MyLogger - DEBUG - 79
+2017-07-13 18:56:21,336 - MyLogger - DEBUG - 80
+2017-07-13 18:56:21,363 - MyLogger - DEBUG - 81
+2017-07-13 18:56:21,395 - MyLogger - DEBUG - 82
+2017-07-13 18:56:21,434 - MyLogger - DEBUG - 83
+2017-07-13 18:56:21,469 - MyLogger - DEBUG - 84
+2017-07-13 18:56:21,501 - MyLogger - DEBUG - 85
+2017-07-13 18:56:21,529 - MyLogger - DEBUG - 86
+2017-07-13 18:56:21,557 - MyLogger - DEBUG - 87
+2017-07-13 18:56:21,594 - MyLogger - DEBUG - 88
+2017-07-13 18:56:21,640 - MyLogger - DEBUG - 89
+2017-07-13 18:56:21,679 - MyLogger - DEBUG - 90
+2017-07-13 18:56:21,708 - MyLogger - DEBUG - 91
+2017-07-13 18:56:21,736 - MyLogger - DEBUG - 92
+2017-07-13 18:56:21,762 - MyLogger - DEBUG - 93
+2017-07-13 18:56:21,803 - MyLogger - DEBUG - 94
+2017-07-13 18:56:21,838 - MyLogger - DEBUG - 95
+2017-07-13 18:56:21,865 - MyLogger - DEBUG - 96
+2017-07-13 18:56:21,956 - MyLogger - DEBUG - 97
+2017-07-13 18:56:21,991 - MyLogger - DEBUG - 98
+2017-07-13 18:56:22,018 - MyLogger - DEBUG - 99
+2017-07-13 18:56:22,064 - MyLogger - DEBUG - 100
+2017-07-13 18:56:22,098 - MyLogger - DEBUG - 101
+2017-07-13 18:56:22,122 - MyLogger - DEBUG - 102
+2017-07-13 18:56:22,164 - MyLogger - DEBUG - 103
+2017-07-13 18:56:22,190 - MyLogger - DEBUG - 104
+2017-07-13 18:56:22,199 - MyLogger - DEBUG - 105
+2017-07-13 18:56:22,225 - MyLogger - DEBUG - 106
+2017-07-13 18:56:22,265 - MyLogger - DEBUG - 107
+2017-07-13 18:56:22,291 - MyLogger - DEBUG - 108
+2017-07-13 18:56:22,318 - MyLogger - DEBUG - 109
+2017-07-13 18:56:22,348 - MyLogger - DEBUG - 110
+2017-07-13 18:56:22,373 - MyLogger - DEBUG - 111
+2017-07-13 18:56:22,407 - MyLogger - DEBUG - 112
+2017-07-13 18:56:22,435 - MyLogger - DEBUG - 113
+2017-07-13 18:56:22,449 - MyLogger - DEBUG - 114
+2017-07-13 18:56:22,485 - MyLogger - DEBUG - 115
+2017-07-13 18:56:22,512 - MyLogger - DEBUG - 116
+2017-07-13 18:56:22,556 - MyLogger - DEBUG - 117
+2017-07-13 18:56:22,598 - MyLogger - DEBUG - 118
+2017-07-13 18:56:22,625 - MyLogger - DEBUG - 119
+2017-07-13 18:56:22,655 - MyLogger - DEBUG - 120
+2017-07-13 18:56:22,694 - MyLogger - DEBUG - 121
+2017-07-13 18:56:22,723 - MyLogger - DEBUG - 122
+2017-07-13 18:56:22,763 - MyLogger - DEBUG - 123
+2017-07-13 18:56:22,792 - MyLogger - DEBUG - 124
+2017-07-13 18:56:22,824 - MyLogger - DEBUG - 125
+2017-07-13 18:56:22,851 - MyLogger - DEBUG - 126
+2017-07-13 18:56:22,876 - MyLogger - DEBUG - 127
+2017-07-13 18:56:22,914 - MyLogger - DEBUG - 128
+2017-07-13 18:56:22,941 - MyLogger - DEBUG - 129
+2017-07-13 18:56:22,973 - MyLogger - DEBUG - 130
+2017-07-13 18:56:23,007 - MyLogger - DEBUG - 131
+2017-07-13 18:56:23,033 - MyLogger - DEBUG - 132
+2017-07-13 18:56:23,057 - MyLogger - DEBUG - 133
+2017-07-13 18:56:23,101 - MyLogger - DEBUG - 134
+2017-07-13 18:56:23,132 - MyLogger - DEBUG - 135
+2017-07-13 18:56:23,163 - MyLogger - DEBUG - 136
+2017-07-13 18:56:23,194 - MyLogger - DEBUG - 137
+2017-07-13 18:56:23,198 - MyLogger - DEBUG - 138
+2017-07-13 18:56:23,242 - MyLogger - DEBUG - 139
+2017-07-13 18:56:23,270 - MyLogger - DEBUG - 140
+2017-07-13 18:56:23,304 - MyLogger - DEBUG - 141
+2017-07-13 18:56:23,341 - MyLogger - DEBUG - 142
+2017-07-13 18:56:23,367 - MyLogger - DEBUG - 143
+2017-07-13 18:56:23,390 - MyLogger - DEBUG - 144
+2017-07-13 18:56:23,422 - MyLogger - DEBUG - 145
+2017-07-13 18:56:23,454 - MyLogger - DEBUG - 146
+2017-07-13 18:56:23,483 - MyLogger - DEBUG - 147
+2017-07-13 18:56:23,510 - MyLogger - DEBUG - 148
+2017-07-13 18:56:23,546 - MyLogger - DEBUG - 149
+2017-07-13 18:56:23,580 - MyLogger - DEBUG - 150
+2017-07-13 18:56:23,621 - MyLogger - DEBUG - 151
+2017-07-13 18:56:23,673 - MyLogger - DEBUG - 152
+2017-07-13 18:56:23,705 - MyLogger - DEBUG - 153
+2017-07-13 18:56:23,740 - MyLogger - DEBUG - 154
+2017-07-13 18:56:23,771 - MyLogger - DEBUG - 155
+2017-07-13 18:56:23,809 - MyLogger - DEBUG - 156
+2017-07-13 18:56:23,852 - MyLogger - DEBUG - 157
+2017-07-13 18:56:23,889 - MyLogger - DEBUG - 158
+2017-07-13 18:56:23,918 - MyLogger - DEBUG - 159
+2017-07-13 18:56:23,955 - MyLogger - DEBUG - 160
+2017-07-13 18:56:23,989 - MyLogger - DEBUG - 161
+2017-07-13 18:56:24,021 - MyLogger - DEBUG - 162
+2017-07-13 18:56:24,070 - MyLogger - DEBUG - 163
+2017-07-13 18:56:24,097 - MyLogger - DEBUG - 164
+2017-07-13 18:56:24,131 - MyLogger - DEBUG - 165
+2017-07-13 18:56:24,164 - MyLogger - DEBUG - 166
+2017-07-13 18:56:24,198 - MyLogger - DEBUG - 167
+2017-07-13 18:56:24,229 - MyLogger - DEBUG - 168
+2017-07-13 18:56:24,256 - MyLogger - DEBUG - 169
+2017-07-13 18:56:24,287 - MyLogger - DEBUG - 170
+2017-07-13 18:56:24,330 - MyLogger - DEBUG - 171
+2017-07-13 18:56:24,360 - MyLogger - DEBUG - 172
+2017-07-13 18:56:24,396 - MyLogger - DEBUG - 173
+2017-07-13 18:56:24,424 - MyLogger - DEBUG - 174
+2017-07-13 18:56:24,446 - MyLogger - DEBUG - 175
+2017-07-13 18:56:24,476 - MyLogger - DEBUG - 176
+2017-07-13 18:56:24,505 - MyLogger - DEBUG - 177
+2017-07-13 18:56:24,531 - MyLogger - DEBUG - 178
+2017-07-13 18:56:24,573 - MyLogger - DEBUG - 179
+2017-07-13 18:56:24,609 - MyLogger - DEBUG - 180
+2017-07-13 18:56:24,648 - MyLogger - DEBUG - 181
+2017-07-13 18:56:24,684 - MyLogger - DEBUG - 182
+2017-07-13 18:56:24,727 - MyLogger - DEBUG - 183
+2017-07-13 18:56:24,758 - MyLogger - DEBUG - 184
+2017-07-13 18:56:24,787 - MyLogger - DEBUG - 185
+2017-07-13 18:56:24,815 - MyLogger - DEBUG - 186
+2017-07-13 18:56:24,854 - MyLogger - DEBUG - 187
+2017-07-13 18:56:24,882 - MyLogger - DEBUG - 188
+2017-07-13 18:56:24,907 - MyLogger - DEBUG - 189
+2017-07-13 18:56:24,934 - MyLogger - DEBUG - 190
+2017-07-13 18:56:24,966 - MyLogger - DEBUG - 191
+2017-07-13 18:56:24,970 - MyLogger - DEBUG - 192
+2017-07-13 18:56:24,971 - MyLogger - DEBUG - 193
+2017-07-13 18:56:24,994 - MyLogger - DEBUG - 194
+2017-07-13 18:56:25,017 - MyLogger - DEBUG - 195
+2017-07-13 18:56:25,043 - MyLogger - DEBUG - 196
+2017-07-13 18:56:25,092 - MyLogger - DEBUG - 197
+2017-07-13 18:56:25,117 - MyLogger - DEBUG - 198
+2017-07-13 18:56:25,153 - MyLogger - DEBUG - 199
+2017-07-13 18:56:25,177 - MyLogger - DEBUG - 200
+2017-07-13 18:56:25,212 - MyLogger - DEBUG - 201
+2017-07-13 18:56:25,243 - MyLogger - DEBUG - 202
+2017-07-13 18:56:25,290 - MyLogger - DEBUG - 203
+2017-07-13 18:56:25,330 - MyLogger - DEBUG - 204
+2017-07-13 18:56:25,369 - MyLogger - DEBUG - 205
+2017-07-13 18:56:25,416 - MyLogger - DEBUG - 206
+2017-07-13 18:56:25,453 - MyLogger - DEBUG - 198132
+2017-07-13 18:56:25,454 - MyLogger - DEBUG - read time: 6.795557260513306 sec
+2017-07-13 18:56:25,455 - MyLogger - DEBUG - 198132
+2017-07-13 18:57:06,082 - MyLogger - DEBUG - Saved proc_4_1000  in 40.61541152000427 sec
+2017-07-13 18:57:06,527 - MyLogger - DEBUG - Saved proc_10_1000  in 41.05078101158142 sec
+2017-07-13 18:57:06,793 - MyLogger - DEBUG - Saved proc_6_1000  in 41.32253074645996 sec
+2017-07-13 18:57:06,881 - MyLogger - DEBUG - Saved proc_0_1000  in 41.421831369400024 sec
+2017-07-13 18:57:07,345 - MyLogger - DEBUG - Saved proc_9_1000  in 41.86931133270264 sec
+2017-07-13 18:57:07,417 - MyLogger - DEBUG - Saved proc_2_1000  in 41.956055641174316 sec
+2017-07-13 18:57:07,972 - MyLogger - DEBUG - Saved proc_5_1000  in 42.50163984298706 sec
+2017-07-13 18:57:08,215 - MyLogger - DEBUG - Saved proc_15_1000  in 42.72045588493347 sec
+2017-07-13 18:57:08,238 - MyLogger - DEBUG - Saved proc_14_1000  in 42.74663996696472 sec
+2017-07-13 18:57:08,481 - MyLogger - DEBUG - Saved proc_3_1000  in 43.01786947250366 sec
+2017-07-13 18:57:08,843 - MyLogger - DEBUG - Saved proc_11_1000  in 43.3650062084198 sec
+2017-07-13 18:57:08,881 - MyLogger - DEBUG - Saved proc_13_1000  in 43.39506673812866 sec
+2017-07-13 18:57:09,475 - MyLogger - DEBUG - Saved proc_8_1000  in 44.00291633605957 sec
+2017-07-13 18:57:09,630 - MyLogger - DEBUG - Saved proc_12_1000  in 44.14947843551636 sec
+2017-07-13 18:57:10,034 - MyLogger - DEBUG - Saved proc_7_1000  in 44.562211990356445 sec
+2017-07-13 18:57:10,214 - MyLogger - DEBUG - Saved proc_1_1000  in 44.75309658050537 sec
+2017-07-13 18:57:46,506 - MyLogger - DEBUG - Saved proc_10_2000  in 39.97864627838135 sec
+2017-07-13 18:57:47,371 - MyLogger - DEBUG - Saved proc_6_2000  in 40.577552795410156 sec
+2017-07-13 18:57:48,009 - MyLogger - DEBUG - Saved proc_4_2000  in 41.92620062828064 sec
+2017-07-13 18:57:49,085 - MyLogger - DEBUG - Saved proc_11_2000  in 40.2412326335907 sec
+2017-07-13 18:57:49,112 - MyLogger - DEBUG - Saved proc_0_2000  in 42.23104500770569 sec
+2017-07-13 18:57:49,543 - MyLogger - DEBUG - Saved proc_9_2000  in 42.19797730445862 sec
+2017-07-13 18:57:49,841 - MyLogger - DEBUG - Saved proc_2_2000  in 42.423468828201294 sec
+2017-07-13 18:57:50,536 - MyLogger - DEBUG - Saved proc_14_2000  in 42.29764437675476 sec
+2017-07-13 18:57:50,590 - MyLogger - DEBUG - Saved proc_3_2000  in 42.10892033576965 sec
+2017-07-13 18:57:51,543 - MyLogger - DEBUG - Saved proc_13_2000  in 42.6609992980957 sec
+2017-07-13 18:57:51,873 - MyLogger - DEBUG - Saved proc_5_2000  in 43.90124320983887 sec
+2017-07-13 18:57:52,314 - MyLogger - DEBUG - Saved proc_12_2000  in 42.683573722839355 sec
+2017-07-13 18:57:52,830 - MyLogger - DEBUG - Saved proc_8_2000  in 43.355464220047 sec
+2017-07-13 18:57:52,888 - MyLogger - DEBUG - Saved proc_7_2000  in 42.85389852523804 sec
+2017-07-13 18:57:53,338 - MyLogger - DEBUG - Saved proc_1_2000  in 43.12401843070984 sec
+2017-07-13 18:57:53,875 - MyLogger - DEBUG - Saved proc_15_2000  in 45.660244941711426 sec
+2017-07-13 18:58:27,484 - MyLogger - DEBUG - Saved proc_10_3000  in 40.978256702423096 sec
+2017-07-13 18:58:29,404 - MyLogger - DEBUG - Saved proc_11_3000  in 40.31890273094177 sec
+2017-07-13 18:58:29,478 - MyLogger - DEBUG - Saved proc_6_3000  in 42.10713505744934 sec
+2017-07-13 18:58:30,334 - MyLogger - DEBUG - Saved proc_9_3000  in 40.78996515274048 sec
+2017-07-13 18:58:31,248 - MyLogger - DEBUG - Saved proc_3_3000  in 40.65835618972778 sec
+2017-07-13 18:58:31,347 - MyLogger - DEBUG - Saved proc_4_3000  in 43.3375358581543 sec
+2017-07-13 18:58:32,369 - MyLogger - DEBUG - Saved proc_0_3000  in 43.256523847579956 sec
+2017-07-13 18:58:33,405 - MyLogger - DEBUG - Saved proc_2_3000  in 43.56336164474487 sec
+2017-07-13 18:58:34,104 - MyLogger - DEBUG - Saved proc_14_3000  in 43.568485736846924 sec
+2017-07-13 18:58:34,731 - MyLogger - DEBUG - Saved proc_5_3000  in 42.85789489746094 sec
+2017-07-13 18:58:35,009 - MyLogger - DEBUG - Saved proc_7_3000  in 42.12086725234985 sec
+2017-07-13 18:58:35,463 - MyLogger - DEBUG - Saved proc_8_3000  in 42.63193702697754 sec
+2017-07-13 18:58:35,764 - MyLogger - DEBUG - Saved proc_15_3000  in 41.888002157211304 sec
+2017-07-13 18:58:35,814 - MyLogger - DEBUG - Saved proc_12_3000  in 43.50039291381836 sec
+2017-07-13 18:58:36,916 - MyLogger - DEBUG - Saved proc_1_3000  in 43.57792139053345 sec
+2017-07-13 18:58:37,694 - MyLogger - DEBUG - Saved proc_13_3000  in 46.151118516922 sec
+2017-07-13 18:59:10,872 - MyLogger - DEBUG - Saved proc_6_4000  in 41.39309859275818 sec
+2017-07-13 18:59:12,512 - MyLogger - DEBUG - Saved proc_10_4000  in 45.027551889419556 sec
+2017-07-13 18:59:12,998 - MyLogger - DEBUG - Saved proc_4_4000  in 41.65127897262573 sec
+2017-07-13 18:59:13,463 - MyLogger - DEBUG - Saved proc_11_4000  in 44.05928611755371 sec
+2017-07-13 18:59:14,501 - MyLogger - DEBUG - Saved proc_3_4000  in 43.25213122367859 sec
+2017-07-13 18:59:14,894 - MyLogger - DEBUG - Saved proc_2_4000  in 41.48948931694031 sec
+2017-07-13 18:59:14,996 - MyLogger - DEBUG - Saved proc_9_4000  in 44.6625702381134 sec
+2017-07-13 18:59:15,469 - MyLogger - DEBUG - Saved proc_0_4000  in 43.10020709037781 sec
+2017-07-13 18:59:15,822 - MyLogger - DEBUG - Saved proc_7_4000  in 40.81297445297241 sec
+2017-07-13 18:59:16,432 - MyLogger - DEBUG - Saved proc_5_4000  in 41.700560092926025 sec
+2017-07-13 18:59:16,590 - MyLogger - DEBUG - Saved proc_14_4000  in 42.48567223548889 sec
+2017-07-13 18:59:17,529 - MyLogger - DEBUG - Saved proc_15_4000  in 41.764782428741455 sec
+2017-07-13 18:59:17,612 - MyLogger - DEBUG - Saved proc_8_4000  in 42.14890742301941 sec
+2017-07-13 18:59:18,865 - MyLogger - DEBUG - Saved proc_1_4000  in 41.94865298271179 sec
+2017-07-13 18:59:19,071 - MyLogger - DEBUG - Saved proc_12_4000  in 43.2563681602478 sec
+2017-07-13 18:59:20,218 - MyLogger - DEBUG - Saved proc_13_4000  in 42.52339720726013 sec
+2017-07-13 18:59:53,284 - MyLogger - DEBUG - Saved proc_6_5000  in 42.41181421279907 sec
+2017-07-13 18:59:54,115 - MyLogger - DEBUG - Saved proc_11_5000  in 40.65091562271118 sec
+2017-07-13 18:59:55,963 - MyLogger - DEBUG - Saved proc_7_5000  in 40.14056205749512 sec
+2017-07-13 18:59:56,569 - MyLogger - DEBUG - Saved proc_4_5000  in 43.570595264434814 sec
+2017-07-13 18:59:56,782 - MyLogger - DEBUG - Saved proc_10_5000  in 44.270148515701294 sec
+2017-07-13 18:59:57,123 - MyLogger - DEBUG - Saved proc_5_5000  in 40.690468549728394 sec
+2017-07-13 18:59:57,445 - MyLogger - DEBUG - Saved proc_3_5000  in 42.944045543670654 sec
+2017-07-13 18:59:58,387 - MyLogger - DEBUG - Saved proc_2_5000  in 43.49273943901062 sec
+2017-07-13 18:59:58,465 - MyLogger - DEBUG - Saved proc_9_5000  in 43.46870255470276 sec
+2017-07-13 19:00:00,200 - MyLogger - DEBUG - Saved proc_8_5000  in 42.58777832984924 sec
+2017-07-13 19:00:00,437 - MyLogger - DEBUG - Saved proc_15_5000  in 42.907960176467896 sec
+2017-07-13 19:00:00,441 - MyLogger - DEBUG - Saved proc_0_5000  in 44.97186589241028 sec
+2017-07-13 19:00:01,324 - MyLogger - DEBUG - Saved proc_13_5000  in 41.10589599609375 sec
+2017-07-13 19:00:01,498 - MyLogger - DEBUG - Saved proc_1_5000  in 42.63243532180786 sec
+2017-07-13 19:00:01,542 - MyLogger - DEBUG - Saved proc_12_5000  in 42.47062921524048 sec
+2017-07-13 19:00:02,353 - MyLogger - DEBUG - Saved proc_14_5000  in 45.76279377937317 sec
+2017-07-13 19:00:33,498 - MyLogger - DEBUG - Saved proc_6_6000  in 40.2136549949646 sec
+2017-07-13 19:00:34,590 - MyLogger - DEBUG - Saved proc_11_6000  in 40.475650787353516 sec
+2017-07-13 19:00:38,709 - MyLogger - DEBUG - Saved proc_7_6000  in 42.746057748794556 sec
+2017-07-13 19:00:39,714 - MyLogger - DEBUG - Saved proc_3_6000  in 42.26859712600708 sec
+2017-07-13 19:00:40,018 - MyLogger - DEBUG - Saved proc_10_6000  in 43.235878229141235 sec
+2017-07-13 19:00:40,495 - MyLogger - DEBUG - Saved proc_5_6000  in 43.37198090553284 sec
+2017-07-13 19:00:41,383 - MyLogger - DEBUG - Saved proc_1_6000  in 39.88537931442261 sec
+2017-07-13 19:00:41,473 - MyLogger - DEBUG - Saved proc_15_6000  in 41.03598880767822 sec
+2017-07-13 19:00:41,909 - MyLogger - DEBUG - Saved proc_9_6000  in 43.44356870651245 sec
+2017-07-13 19:00:41,978 - MyLogger - DEBUG - Saved proc_4_6000  in 45.408968687057495 sec
+2017-07-13 19:00:43,041 - MyLogger - DEBUG - Saved proc_2_6000  in 44.653127670288086 sec
+2017-07-13 19:00:43,943 - MyLogger - DEBUG - Saved proc_0_6000  in 43.50197196006775 sec
+2017-07-13 19:00:44,011 - MyLogger - DEBUG - Saved proc_8_6000  in 43.81089782714844 sec
+2017-07-13 19:00:44,192 - MyLogger - DEBUG - Saved proc_13_6000  in 42.867987871170044 sec
+2017-07-13 19:00:44,382 - MyLogger - DEBUG - Saved proc_12_6000  in 42.839662313461304 sec
+2017-07-13 19:00:45,766 - MyLogger - DEBUG - Saved proc_14_6000  in 43.41294598579407 sec
+2017-07-13 19:01:15,442 - MyLogger - DEBUG - Saved proc_6_7000  in 41.944661378860474 sec
+2017-07-13 19:01:17,169 - MyLogger - DEBUG - Saved proc_11_7000  in 42.578773021698 sec
+2017-07-13 19:01:20,252 - MyLogger - DEBUG - Saved proc_3_7000  in 40.53789949417114 sec
+2017-07-13 19:01:20,770 - MyLogger - DEBUG - Saved proc_7_7000  in 42.06079888343811 sec
+2017-07-13 19:01:21,569 - MyLogger - DEBUG - Saved proc_5_7000  in 41.07400584220886 sec
+2017-07-13 19:01:22,100 - MyLogger - DEBUG - Saved proc_1_7000  in 40.71650218963623 sec
+2017-07-13 19:01:23,255 - MyLogger - DEBUG - Saved proc_15_7000  in 41.7819709777832 sec
+2017-07-13 19:01:23,705 - MyLogger - DEBUG - Saved proc_4_7000  in 41.72706389427185 sec
+2017-07-13 19:01:24,193 - MyLogger - DEBUG - Saved proc_10_7000  in 44.17392349243164 sec
+2017-07-13 19:01:24,809 - MyLogger - DEBUG - Saved proc_9_7000  in 42.90010356903076 sec
+2017-07-13 19:01:25,075 - MyLogger - DEBUG - Saved proc_0_7000  in 41.13152885437012 sec
+2017-07-13 19:01:27,257 - MyLogger - DEBUG - Saved proc_12_7000  in 42.87482213973999 sec
+2017-07-13 19:01:27,361 - MyLogger - DEBUG - Saved proc_13_7000  in 43.168541431427 sec
+2017-07-13 19:01:28,135 - MyLogger - DEBUG - Saved proc_2_7000  in 45.09432053565979 sec
+2017-07-13 19:01:28,596 - MyLogger - DEBUG - Saved proc_8_7000  in 44.58517146110535 sec
+2017-07-13 19:01:29,238 - MyLogger - DEBUG - Saved proc_14_7000  in 43.47134304046631 sec
+2017-07-13 19:01:58,036 - MyLogger - DEBUG - Saved proc_6_8000  in 42.593764781951904 sec
+2017-07-13 19:01:59,051 - MyLogger - DEBUG - Saved proc_11_8000  in 41.88173055648804 sec
+2017-07-13 19:02:02,640 - MyLogger - DEBUG - Saved proc_7_8000  in 41.86972522735596 sec
+2017-07-13 19:02:03,589 - MyLogger - DEBUG - Saved proc_3_8000  in 43.33734750747681 sec
+2017-07-13 19:02:04,863 - MyLogger - DEBUG - Saved proc_5_8000  in 43.29341745376587 sec
+2017-07-13 19:02:05,643 - MyLogger - DEBUG - Saved proc_9_8000  in 40.8333957195282 sec
+2017-07-13 19:02:05,757 - MyLogger - DEBUG - Saved proc_4_8000  in 42.05117964744568 sec
+2017-07-13 19:02:05,759 - MyLogger - DEBUG - Saved proc_1_8000  in 43.65907120704651 sec
+2017-07-13 19:02:06,607 - MyLogger - DEBUG - Saved proc_15_8000  in 43.35168433189392 sec
+2017-07-13 19:02:08,559 - MyLogger - DEBUG - Saved proc_10_8000  in 44.36606049537659 sec
+2017-07-13 19:02:09,484 - MyLogger - DEBUG - Saved proc_12_8000  in 42.22754979133606 sec
+2017-07-13 19:02:09,526 - MyLogger - DEBUG - Saved proc_0_8000  in 44.45072913169861 sec
+2017-07-13 19:02:09,579 - MyLogger - DEBUG - Saved proc_13_8000  in 42.21792483329773 sec
+2017-07-13 19:02:11,682 - MyLogger - DEBUG - Saved proc_2_8000  in 43.546940088272095 sec
+2017-07-13 19:02:12,018 - MyLogger - DEBUG - Saved proc_14_8000  in 42.77963471412659 sec
+2017-07-13 19:02:12,539 - MyLogger - DEBUG - Saved proc_8_8000  in 43.943122148513794 sec
+2017-07-13 19:02:38,251 - MyLogger - DEBUG - Saved proc_6_9000  in 40.21456289291382 sec
+2017-07-13 19:02:41,821 - MyLogger - DEBUG - Saved proc_11_9000  in 42.76909780502319 sec
+2017-07-13 19:02:44,178 - MyLogger - DEBUG - Saved proc_7_9000  in 41.53728199005127 sec
+2017-07-13 19:02:45,692 - MyLogger - DEBUG - Saved proc_5_9000  in 40.82839107513428 sec
+2017-07-13 19:02:45,901 - MyLogger - DEBUG - Saved proc_3_9000  in 42.31104898452759 sec
+2017-07-13 19:02:46,890 - MyLogger - DEBUG - Saved proc_9_9000  in 41.246790409088135 sec
+2017-07-13 19:02:47,059 - MyLogger - DEBUG - Saved proc_1_9000  in 41.30000352859497 sec
+2017-07-13 19:02:47,277 - MyLogger - DEBUG - Saved proc_4_9000  in 41.51998162269592 sec
+2017-07-13 19:02:48,191 - MyLogger - DEBUG - Saved proc_15_9000  in 41.5838725566864 sec
+2017-07-13 19:02:51,720 - MyLogger - DEBUG - Saved proc_10_9000  in 43.16096210479736 sec
+2017-07-13 19:02:52,291 - MyLogger - DEBUG - Saved proc_12_9000  in 42.80681896209717 sec
+2017-07-13 19:02:52,722 - MyLogger - DEBUG - Saved proc_0_9000  in 43.19538760185242 sec
+2017-07-13 19:02:55,229 - MyLogger - DEBUG - Saved proc_2_9000  in 43.546759366989136 sec
+2017-07-13 19:02:55,377 - MyLogger - DEBUG - Saved proc_13_9000  in 45.79816389083862 sec
+2017-07-13 19:02:56,906 - MyLogger - DEBUG - Saved proc_14_9000  in 44.88811731338501 sec
+2017-07-13 19:02:58,635 - MyLogger - DEBUG - Saved proc_8_9000  in 46.09570264816284 sec
+2017-07-13 19:03:22,408 - MyLogger - DEBUG - Saved proc_6_10000  in 44.15615367889404 sec
+2017-07-13 19:03:24,355 - MyLogger - DEBUG - Saved proc_7_10000  in 40.1769654750824 sec
+2017-07-13 19:03:25,794 - MyLogger - DEBUG - Saved proc_11_10000  in 43.97365474700928 sec
+2017-07-13 19:03:27,870 - MyLogger - DEBUG - Saved proc_4_10000  in 40.59306979179382 sec
+2017-07-13 19:03:29,363 - MyLogger - DEBUG - Saved proc_1_10000  in 42.303285360336304 sec
+2017-07-13 19:03:29,389 - MyLogger - DEBUG - Saved proc_5_10000  in 43.6968138217926 sec
+2017-07-13 19:03:29,406 - MyLogger - DEBUG - Saved proc_15_10000  in 41.214786767959595 sec
+2017-07-13 19:03:30,661 - MyLogger - DEBUG - Saved proc_3_10000  in 44.760345220565796 sec
+2017-07-13 19:03:31,591 - MyLogger - DEBUG - Saved proc_9_10000  in 44.701234579086304 sec
+2017-07-13 19:03:32,304 - MyLogger - DEBUG - Saved proc_0_10000  in 39.58234477043152 sec
+2017-07-13 19:03:34,018 - MyLogger - DEBUG - Saved proc_10_10000  in 42.29747748374939 sec
+2017-07-13 19:03:36,114 - MyLogger - DEBUG - Saved proc_12_10000  in 43.821857213974 sec
+2017-07-13 19:03:36,466 - MyLogger - DEBUG - Saved proc_2_10000  in 41.23696804046631 sec
+2017-07-13 19:03:38,357 - MyLogger - DEBUG - Saved proc_13_10000  in 42.979461431503296 sec
+2017-07-13 19:03:39,308 - MyLogger - DEBUG - Saved proc_14_10000  in 42.401920318603516 sec
+2017-07-13 19:03:43,061 - MyLogger - DEBUG - Saved proc_8_10000  in 44.42496371269226 sec
+2017-07-13 19:03:46,222 - MyLogger - DEBUG - processing time time: 440.7669851779938 sec
+2017-07-13 19:08:15,083 - MyLogger - DEBUG - QWERQWER
+2017-07-13 19:08:15,084 - MyLogger - DEBUG - 0
+2017-07-13 19:08:15,151 - MyLogger - DEBUG - 1
+2017-07-13 19:08:15,176 - MyLogger - DEBUG - 2
+2017-07-13 19:08:15,215 - MyLogger - DEBUG - 3
+2017-07-13 19:08:15,245 - MyLogger - DEBUG - 4
+2017-07-13 19:08:15,272 - MyLogger - DEBUG - 5
+2017-07-13 19:08:15,311 - MyLogger - DEBUG - 6
+2017-07-13 19:08:15,338 - MyLogger - DEBUG - 7
+2017-07-13 19:08:15,365 - MyLogger - DEBUG - 8
+2017-07-13 19:08:15,417 - MyLogger - DEBUG - 9
+2017-07-13 19:08:15,454 - MyLogger - DEBUG - 10
+2017-07-13 19:08:15,500 - MyLogger - DEBUG - 11
+2017-07-13 19:08:15,529 - MyLogger - DEBUG - 12
+2017-07-13 19:08:15,565 - MyLogger - DEBUG - 13
+2017-07-13 19:08:15,569 - MyLogger - DEBUG - 14
+2017-07-13 19:08:15,605 - MyLogger - DEBUG - 15
+2017-07-13 19:08:15,648 - MyLogger - DEBUG - 16
+2017-07-13 19:08:15,680 - MyLogger - DEBUG - 17
+2017-07-13 19:08:15,699 - MyLogger - DEBUG - 18
+2017-07-13 19:08:15,728 - MyLogger - DEBUG - 19
+2017-07-13 19:08:15,753 - MyLogger - DEBUG - 20
+2017-07-13 19:08:15,777 - MyLogger - DEBUG - 21
+2017-07-13 19:08:15,802 - MyLogger - DEBUG - 22
+2017-07-13 19:08:15,847 - MyLogger - DEBUG - 23
+2017-07-13 19:08:15,885 - MyLogger - DEBUG - 24
+2017-07-13 19:08:15,914 - MyLogger - DEBUG - 25
+2017-07-13 19:08:15,939 - MyLogger - DEBUG - 26
+2017-07-13 19:08:15,971 - MyLogger - DEBUG - 27
+2017-07-13 19:08:15,989 - MyLogger - DEBUG - 28
+2017-07-13 19:08:16,018 - MyLogger - DEBUG - 29
+2017-07-13 19:08:16,059 - MyLogger - DEBUG - 30
+2017-07-13 19:08:16,095 - MyLogger - DEBUG - 31
+2017-07-13 19:08:16,152 - MyLogger - DEBUG - 32
+2017-07-13 19:08:16,183 - MyLogger - DEBUG - 33
+2017-07-13 19:08:16,209 - MyLogger - DEBUG - 34
+2017-07-13 19:08:16,242 - MyLogger - DEBUG - 35
+2017-07-13 19:08:16,287 - MyLogger - DEBUG - 36
+2017-07-13 19:08:16,330 - MyLogger - DEBUG - 37
+2017-07-13 19:08:16,367 - MyLogger - DEBUG - 38
+2017-07-13 19:08:16,401 - MyLogger - DEBUG - 39
+2017-07-13 19:08:16,478 - MyLogger - DEBUG - 40
+2017-07-13 19:08:16,511 - MyLogger - DEBUG - 41
+2017-07-13 19:08:16,540 - MyLogger - DEBUG - 42
+2017-07-13 19:08:16,573 - MyLogger - DEBUG - 43
+2017-07-13 19:08:16,599 - MyLogger - DEBUG - 44
+2017-07-13 19:08:16,628 - MyLogger - DEBUG - 45
+2017-07-13 19:08:16,669 - MyLogger - DEBUG - 46
+2017-07-13 19:08:16,700 - MyLogger - DEBUG - 47
+2017-07-13 19:08:16,708 - MyLogger - DEBUG - 48
+2017-07-13 19:08:16,749 - MyLogger - DEBUG - 49
+2017-07-13 19:08:16,798 - MyLogger - DEBUG - 50
+2017-07-13 19:08:16,828 - MyLogger - DEBUG - 51
+2017-07-13 19:08:16,859 - MyLogger - DEBUG - 52
+2017-07-13 19:08:16,892 - MyLogger - DEBUG - 53
+2017-07-13 19:08:16,918 - MyLogger - DEBUG - 54
+2017-07-13 19:08:16,964 - MyLogger - DEBUG - 55
+2017-07-13 19:08:16,993 - MyLogger - DEBUG - 56
+2017-07-13 19:08:17,020 - MyLogger - DEBUG - 57
+2017-07-13 19:08:17,063 - MyLogger - DEBUG - 58
+2017-07-13 19:08:17,090 - MyLogger - DEBUG - 59
+2017-07-13 19:08:17,114 - MyLogger - DEBUG - 60
+2017-07-13 19:08:17,155 - MyLogger - DEBUG - 61
+2017-07-13 19:08:17,183 - MyLogger - DEBUG - 62
+2017-07-13 19:08:17,210 - MyLogger - DEBUG - 63
+2017-07-13 19:08:17,281 - MyLogger - DEBUG - 64
+2017-07-13 19:08:17,320 - MyLogger - DEBUG - 65
+2017-07-13 19:08:17,350 - MyLogger - DEBUG - 66
+2017-07-13 19:08:17,393 - MyLogger - DEBUG - 67
+2017-07-13 19:08:17,427 - MyLogger - DEBUG - 68
+2017-07-13 19:08:17,456 - MyLogger - DEBUG - 69
+2017-07-13 19:08:17,475 - MyLogger - DEBUG - 70
+2017-07-13 19:08:17,502 - MyLogger - DEBUG - 71
+2017-07-13 19:08:17,532 - MyLogger - DEBUG - 72
+2017-07-13 19:08:17,558 - MyLogger - DEBUG - 73
+2017-07-13 19:08:17,596 - MyLogger - DEBUG - 74
+2017-07-13 19:08:17,624 - MyLogger - DEBUG - 75
+2017-07-13 19:08:17,650 - MyLogger - DEBUG - 76
+2017-07-13 19:08:17,685 - MyLogger - DEBUG - 77
+2017-07-13 19:08:17,722 - MyLogger - DEBUG - 78
+2017-07-13 19:08:17,751 - MyLogger - DEBUG - 79
+2017-07-13 19:08:17,786 - MyLogger - DEBUG - 80
+2017-07-13 19:08:17,813 - MyLogger - DEBUG - 81
+2017-07-13 19:08:17,844 - MyLogger - DEBUG - 82
+2017-07-13 19:08:17,886 - MyLogger - DEBUG - 83
+2017-07-13 19:08:17,921 - MyLogger - DEBUG - 84
+2017-07-13 19:08:17,954 - MyLogger - DEBUG - 85
+2017-07-13 19:08:17,981 - MyLogger - DEBUG - 86
+2017-07-13 19:08:18,010 - MyLogger - DEBUG - 87
+2017-07-13 19:08:18,047 - MyLogger - DEBUG - 88
+2017-07-13 19:08:18,093 - MyLogger - DEBUG - 89
+2017-07-13 19:08:18,130 - MyLogger - DEBUG - 90
+2017-07-13 19:08:18,158 - MyLogger - DEBUG - 91
+2017-07-13 19:08:18,188 - MyLogger - DEBUG - 92
+2017-07-13 19:08:18,214 - MyLogger - DEBUG - 93
+2017-07-13 19:08:18,255 - MyLogger - DEBUG - 94
+2017-07-13 19:08:18,289 - MyLogger - DEBUG - 95
+2017-07-13 19:08:18,317 - MyLogger - DEBUG - 96
+2017-07-13 19:08:18,409 - MyLogger - DEBUG - 97
+2017-07-13 19:08:18,444 - MyLogger - DEBUG - 98
+2017-07-13 19:08:18,471 - MyLogger - DEBUG - 99
+2017-07-13 19:08:18,520 - MyLogger - DEBUG - 100
+2017-07-13 19:08:18,554 - MyLogger - DEBUG - 101
+2017-07-13 19:08:18,579 - MyLogger - DEBUG - 102
+2017-07-13 19:08:18,620 - MyLogger - DEBUG - 103
+2017-07-13 19:08:18,647 - MyLogger - DEBUG - 104
+2017-07-13 19:08:18,656 - MyLogger - DEBUG - 105
+2017-07-13 19:08:18,682 - MyLogger - DEBUG - 106
+2017-07-13 19:08:18,721 - MyLogger - DEBUG - 107
+2017-07-13 19:08:18,748 - MyLogger - DEBUG - 108
+2017-07-13 19:08:18,776 - MyLogger - DEBUG - 109
+2017-07-13 19:08:18,806 - MyLogger - DEBUG - 110
+2017-07-13 19:08:18,831 - MyLogger - DEBUG - 111
+2017-07-13 19:08:18,865 - MyLogger - DEBUG - 112
+2017-07-13 19:08:18,893 - MyLogger - DEBUG - 113
+2017-07-13 19:08:18,907 - MyLogger - DEBUG - 114
+2017-07-13 19:08:18,942 - MyLogger - DEBUG - 115
+2017-07-13 19:08:18,969 - MyLogger - DEBUG - 116
+2017-07-13 19:08:19,013 - MyLogger - DEBUG - 117
+2017-07-13 19:08:19,054 - MyLogger - DEBUG - 118
+2017-07-13 19:08:19,082 - MyLogger - DEBUG - 119
+2017-07-13 19:08:19,113 - MyLogger - DEBUG - 120
+2017-07-13 19:08:19,152 - MyLogger - DEBUG - 121
+2017-07-13 19:08:19,182 - MyLogger - DEBUG - 122
+2017-07-13 19:08:19,222 - MyLogger - DEBUG - 123
+2017-07-13 19:08:19,251 - MyLogger - DEBUG - 124
+2017-07-13 19:08:19,283 - MyLogger - DEBUG - 125
+2017-07-13 19:08:19,310 - MyLogger - DEBUG - 126
+2017-07-13 19:08:19,336 - MyLogger - DEBUG - 127
+2017-07-13 19:08:19,372 - MyLogger - DEBUG - 128
+2017-07-13 19:08:19,399 - MyLogger - DEBUG - 129
+2017-07-13 19:08:19,432 - MyLogger - DEBUG - 130
+2017-07-13 19:08:19,467 - MyLogger - DEBUG - 131
+2017-07-13 19:08:19,493 - MyLogger - DEBUG - 132
+2017-07-13 19:08:19,518 - MyLogger - DEBUG - 133
+2017-07-13 19:08:19,562 - MyLogger - DEBUG - 134
+2017-07-13 19:08:19,591 - MyLogger - DEBUG - 135
+2017-07-13 19:08:19,622 - MyLogger - DEBUG - 136
+2017-07-13 19:08:19,652 - MyLogger - DEBUG - 137
+2017-07-13 19:08:19,656 - MyLogger - DEBUG - 138
+2017-07-13 19:08:19,698 - MyLogger - DEBUG - 139
+2017-07-13 19:08:19,726 - MyLogger - DEBUG - 140
+2017-07-13 19:08:19,761 - MyLogger - DEBUG - 141
+2017-07-13 19:08:19,796 - MyLogger - DEBUG - 142
+2017-07-13 19:08:19,823 - MyLogger - DEBUG - 143
+2017-07-13 19:08:19,847 - MyLogger - DEBUG - 144
+2017-07-13 19:08:19,879 - MyLogger - DEBUG - 145
+2017-07-13 19:08:19,911 - MyLogger - DEBUG - 146
+2017-07-13 19:08:19,939 - MyLogger - DEBUG - 147
+2017-07-13 19:08:19,966 - MyLogger - DEBUG - 148
+2017-07-13 19:08:20,002 - MyLogger - DEBUG - 149
+2017-07-13 19:08:20,035 - MyLogger - DEBUG - 150
+2017-07-13 19:08:20,072 - MyLogger - DEBUG - 151
+2017-07-13 19:08:20,131 - MyLogger - DEBUG - 152
+2017-07-13 19:08:20,163 - MyLogger - DEBUG - 153
+2017-07-13 19:08:20,198 - MyLogger - DEBUG - 154
+2017-07-13 19:08:20,229 - MyLogger - DEBUG - 155
+2017-07-13 19:08:20,269 - MyLogger - DEBUG - 156
+2017-07-13 19:08:20,312 - MyLogger - DEBUG - 157
+2017-07-13 19:08:20,349 - MyLogger - DEBUG - 158
+2017-07-13 19:08:20,377 - MyLogger - DEBUG - 159
+2017-07-13 19:08:20,412 - MyLogger - DEBUG - 160
+2017-07-13 19:08:20,446 - MyLogger - DEBUG - 161
+2017-07-13 19:08:20,478 - MyLogger - DEBUG - 162
+2017-07-13 19:08:20,526 - MyLogger - DEBUG - 163
+2017-07-13 19:08:20,556 - MyLogger - DEBUG - 164
+2017-07-13 19:08:20,590 - MyLogger - DEBUG - 165
+2017-07-13 19:08:20,623 - MyLogger - DEBUG - 166
+2017-07-13 19:08:20,658 - MyLogger - DEBUG - 167
+2017-07-13 19:08:20,689 - MyLogger - DEBUG - 168
+2017-07-13 19:08:20,715 - MyLogger - DEBUG - 169
+2017-07-13 19:08:20,746 - MyLogger - DEBUG - 170
+2017-07-13 19:08:20,794 - MyLogger - DEBUG - 171
+2017-07-13 19:08:20,823 - MyLogger - DEBUG - 172
+2017-07-13 19:08:20,862 - MyLogger - DEBUG - 173
+2017-07-13 19:08:20,890 - MyLogger - DEBUG - 174
+2017-07-13 19:08:20,911 - MyLogger - DEBUG - 175
+2017-07-13 19:08:20,942 - MyLogger - DEBUG - 176
+2017-07-13 19:08:20,970 - MyLogger - DEBUG - 177
+2017-07-13 19:08:20,997 - MyLogger - DEBUG - 178
+2017-07-13 19:08:21,037 - MyLogger - DEBUG - 179
+2017-07-13 19:08:21,076 - MyLogger - DEBUG - 180
+2017-07-13 19:08:21,114 - MyLogger - DEBUG - 181
+2017-07-13 19:08:21,149 - MyLogger - DEBUG - 182
+2017-07-13 19:08:21,190 - MyLogger - DEBUG - 183
+2017-07-13 19:08:21,220 - MyLogger - DEBUG - 184
+2017-07-13 19:08:21,251 - MyLogger - DEBUG - 185
+2017-07-13 19:08:21,281 - MyLogger - DEBUG - 186
+2017-07-13 19:08:21,318 - MyLogger - DEBUG - 187
+2017-07-13 19:08:21,346 - MyLogger - DEBUG - 188
+2017-07-13 19:08:21,372 - MyLogger - DEBUG - 189
+2017-07-13 19:08:21,398 - MyLogger - DEBUG - 190
+2017-07-13 19:08:21,431 - MyLogger - DEBUG - 191
+2017-07-13 19:08:21,434 - MyLogger - DEBUG - 192
+2017-07-13 19:08:21,435 - MyLogger - DEBUG - 193
+2017-07-13 19:08:21,459 - MyLogger - DEBUG - 194
+2017-07-13 19:08:21,482 - MyLogger - DEBUG - 195
+2017-07-13 19:08:21,508 - MyLogger - DEBUG - 196
+2017-07-13 19:08:21,560 - MyLogger - DEBUG - 197
+2017-07-13 19:08:21,586 - MyLogger - DEBUG - 198
+2017-07-13 19:08:21,621 - MyLogger - DEBUG - 199
+2017-07-13 19:08:21,645 - MyLogger - DEBUG - 200
+2017-07-13 19:08:21,678 - MyLogger - DEBUG - 201
+2017-07-13 19:08:21,710 - MyLogger - DEBUG - 202
+2017-07-13 19:08:21,760 - MyLogger - DEBUG - 203
+2017-07-13 19:08:21,800 - MyLogger - DEBUG - 204
+2017-07-13 19:08:21,839 - MyLogger - DEBUG - 205
+2017-07-13 19:08:21,886 - MyLogger - DEBUG - 206
+2017-07-13 19:08:21,922 - MyLogger - DEBUG - 198132
+2017-07-13 19:08:21,923 - MyLogger - DEBUG - read time: 6.839165210723877 sec
+2017-07-13 19:08:21,923 - MyLogger - DEBUG - 198132
+2017-07-13 19:12:09,555 - MyLogger - DEBUG - Saved proc_7_1000  in 227.6099133491516 sec
+2017-07-13 19:12:09,909 - MyLogger - DEBUG - Saved proc_4_1000  in 227.96363949775696 sec
+2017-07-13 19:12:10,150 - MyLogger - DEBUG - Saved proc_6_1000  in 228.20507526397705 sec
+2017-07-13 19:12:10,329 - MyLogger - DEBUG - Saved proc_10_1000  in 228.38206934928894 sec
+2017-07-13 19:12:10,402 - MyLogger - DEBUG - Saved proc_11_1000  in 228.45477056503296 sec
+2017-07-13 19:12:11,190 - MyLogger - DEBUG - Saved proc_15_1000  in 229.2429711818695 sec
+2017-07-13 19:12:11,334 - MyLogger - DEBUG - Saved proc_5_1000  in 229.3892912864685 sec
+2017-07-13 19:12:11,604 - MyLogger - DEBUG - Saved proc_13_1000  in 229.65696239471436 sec
+2017-07-13 19:12:11,701 - MyLogger - DEBUG - Saved proc_8_1000  in 229.7560794353485 sec
+2017-07-13 19:12:11,812 - MyLogger - DEBUG - Saved proc_3_1000  in 229.86728239059448 sec
+2017-07-13 19:12:15,158 - MyLogger - DEBUG - Saved proc_14_1000  in 233.2106487751007 sec
+2017-07-13 19:12:15,169 - MyLogger - DEBUG - Saved proc_0_1000  in 233.22452521324158 sec
+2017-07-13 19:12:16,032 - MyLogger - DEBUG - Saved proc_1_1000  in 234.0872619152069 sec
+2017-07-13 19:12:17,284 - MyLogger - DEBUG - Saved proc_9_1000  in 235.3388659954071 sec
+2017-07-13 19:12:19,193 - MyLogger - DEBUG - Saved proc_12_1000  in 237.24598336219788 sec
+2017-07-13 19:12:21,449 - MyLogger - DEBUG - Saved proc_2_1000  in 239.5040671825409 sec
